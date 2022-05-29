@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# Real Time Mod
 
-## Setup
+A simple mod that sync your world time to real time.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Currently, it just does sync your time to your machine time.

@@ -1,31 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "realtimemod",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Real Time Mod",
+  "description": "A simple mod that sync your world time to real time.",
   "authors": [
-    "Me!"
+    "Steve Xiao (stevexmh@qq.com)"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Steve-xmh/realtimemod",
+    "sources": "https://github.com/Steve-xmh/realtimemod"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "MIT",
+  "icon": "assets/realtimemod/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.stevexmh.realtimemod.RealTimeMod"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
